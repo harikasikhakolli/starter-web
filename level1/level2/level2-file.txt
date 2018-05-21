@@ -1,0 +1,4 @@
+•	As the data owner does not keep a copy of the data, whenever user dynamics changes, the data owner needs to download and decrypt the data,re-encrypt it with the new keys, and upload the encrypted data. The user dynamics refers to the operation of adding or revoking users. Notice also that this process must be applied to all the data items encrypted with the same key. This is inefficient when the data set to be re-encrypted is large
+•	In order to issue the new keys to the users, the data owner needs to establish private communication channels with the users. 
+•	The privacy of the identity attributes of the users is not taken into account. Therefore the cloud can learn sensitive information about the users and their organization.
+•	They are either unable or inefficient in supporting fine-grained ABAC policies.
